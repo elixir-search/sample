@@ -2,12 +2,12 @@
 
 ## About Searchex Repos and Collections
 
-Searchex supports the exchange of searchable document repositories.  Searchex
-repositories are managed by Git and downloadable from anywhere on the Internet.
-You can install a Searchex repository on your Searchex host in seconds.
+With Searchex you can exchange searchable document repositories.  Searchex
+repositories are managed by Git.  Download and install a Searchex repository on
+your host with one simple command.
 
-Each Searchex `repo` contains one or more `collections`.  Each `collection` is defined
-by a `config` file - a yaml file with indexing and search parameters.
+Each Searchex `repo` contains one or more `collections`.  Each `collection` has
+a `config` file - a yaml file with indexing and search parameters.
 
 To install this Sample Repo on your system, use the command:
 
@@ -43,8 +43,11 @@ Things to note:
 
 - You can fetch other Searchex Repos from any location on the internet.
 
-- You can manually add/remove/edit/update any file under `~/.searchex`.
-  Any sort of Git operation (commit/pull/revert/etc) is ok.  
+- You can add/remove/edit/update any file under `~/.searchex`.  Any sort of Git
+  operation (commit/pull/revert/etc) is ok.  
+
+- You can download repos to the `~/.searchex` directory using any method:
+  `scp`, `git clone` or `searchex fetch`.
 
 - Document and cache-file locations are defined in the `config` file.  They
   can be located in the repo directory itself, or elsewhere on your filesystem.
