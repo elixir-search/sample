@@ -3,13 +3,13 @@
 ## About Searchex Repos and Collections
 
 Searchex supports the exchange of searchable document repositories.  Searchex
-repositories are managed by Git and can be stored anywhere on the Internet.
+repositories are managed by Git and downloadable from anywhere on the Internet.
 You can install a Searchex repository on your Searchex host in seconds.
 
 Each Searchex `repo` contains one or more `collections`.  Each `collection` is defined
 by a `config` file - a yaml file with indexing and search parameters.
 
-To install this Sample repo on your system, use the command:
+To install this Sample Repo on your system, use the command:
 
     searchex fetch elixir-search/sample
 
@@ -21,9 +21,9 @@ Now you can search any of the collections in the Sample Repo.
 
 ## Behind the Scenes
 
-Searchex auto-creates a hidden directory `~/.searchex` on your Searchex host
-machine.  Under this directory, there is one subdirectory for each Repo.  Each
-Repo directory can contain one or more `config` files.
+Searchex auto-creates a hidden directory `~/.searchex` on your Searchex host.
+Under this directory, there is one subdirectory for each Repo.  Each Repo
+directory can contain one or more `config` files.
 
     ~/.searchex
       |-- local
