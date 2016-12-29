@@ -5,6 +5,6 @@
 :file_maxnum:    10
 :file_maxkb:     1000
 :cache_dir:      "cache"
-:display_fields: "startbyte doclength body"
+:display_fields: "score startbyte doclength body"
 :docsep:         "\n"
 :input_fields:
