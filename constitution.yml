@@ -1,9 +1,11 @@
 ---
 :collection:     "constitution"
-:file_roots:     [docs/constitution.txt]
-:file_types:     ["txt"]
-:file_maxnum:    10
-:file_maxkb:     2000
+:adapter:
+  :type:         "Filesys"
+  :file_roots:   [docs/constitution.txt]
+  :file_types:   ["txt"]
+  :file_maxnum:  10
+  :file_maxkb:   2000
 :cache_dir:      "cache"
 :display_fields: "startbyte doclength body"
 :docsep:         "\n\n"

@@ -1,10 +1,12 @@
 ---
 :collection:     tiny
 :cache_dir:      "cache"
-:file_roots:     ["docs/tiny"]
-:file_types:     ["txt", "md", "wlog"]
-:file_maxnum:    50
-:file_maxkb:     50
+:adapter:
+  :type:         "Filesys"
+  :file_roots:   ["docs/tiny"]
+  :file_types:   ["txt", "md", "wlog"]
+  :file_maxnum:  50
+  :file_maxkb:   50
 :display_fields: "f:filename1 doclength i:from i:date body"
 :input_fields:
   :from:
